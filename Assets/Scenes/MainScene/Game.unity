@@ -725,7 +725,7 @@ MonoBehaviour:
   data: 0
   entries:
   - Language: Russian
-    Text: "\u0421\u0443\u043F\u0435\u0440!"
+    Text: "\u0425\u043E\u0440\u043E\u0448!"
     Object: {fileID: 0}
   - Language: English
     Text: Super!
@@ -1353,9 +1353,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 806f0696300aeac44a0e17efee222854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentLanguage: 
+  currentLanguage: Russian
   detectLanguage: 0
-  defaultLanguage: 
+  defaultLanguage: Russian
   saveLoad: 1
   prefabs: []
 --- !u!1 &624176335
@@ -1405,7 +1405,7 @@ MonoBehaviour:
   data: 0
   entries:
   - Language: Russian
-    Text: "\u041D\u0415\u0423\u0414\u0410\u0427\u0410"
+    Text: "\u041D\u0415 \u041F\u0420\u041E\u0419\u0414\u0415\u0428\u042C!"
     Object: {fileID: 0}
   - Language: English
     Text: Fail
@@ -1460,7 +1460,7 @@ MonoBehaviour:
   data: 0
   entries:
   - Language: Russian
-    Text: "\u041F\u041B\u041E\u0425\u041E"
+    Text: "\u0422\u0410 \u0417\u0410 \u0428\u041E!?"
     Object: {fileID: 0}
   - Language: English
     Text: Bad
@@ -3163,7 +3163,7 @@ MonoBehaviour:
   data: 0
   entries:
   - Language: Russian
-    Text: "\u0412\u0430\u0443!"
+    Text: "\u041F\u0447\u0435\u043B\u043E\u0431\u0430\u0432!"
     Object: {fileID: 0}
   - Language: English
     Text: Wow!
@@ -5209,7 +5209,7 @@ MonoBehaviour:
   data: 0
   entries:
   - Language: Russian
-    Text: "\u041D\u0430\u0439\u0441!"
+    Text: "\u0427\u0438\u043A\u0438\u0431\u0430\u043C\u0431\u043E\u043D\u0438!"
     Object: {fileID: 0}
   - Language: English
     Text: Nice!
@@ -6329,12 +6329,12 @@ PrefabInstance:
     - target: {fileID: 236631744151005187, guid: aa173dd1ba8c4bc4e9e7de080eaa8ca2,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 580.98
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 236631744151005187, guid: aa173dd1ba8c4bc4e9e7de080eaa8ca2,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 777.6483
       objectReference: {fileID: 0}
     - target: {fileID: 236631744151005187, guid: aa173dd1ba8c4bc4e9e7de080eaa8ca2,
         type: 3}
@@ -6449,12 +6449,12 @@ PrefabInstance:
     - target: {fileID: 236631744841651299, guid: aa173dd1ba8c4bc4e9e7de080eaa8ca2,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 580.98
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 236631744841651299, guid: aa173dd1ba8c4bc4e9e7de080eaa8ca2,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 777.64825
       objectReference: {fileID: 0}
     - target: {fileID: 236631744841651299, guid: aa173dd1ba8c4bc4e9e7de080eaa8ca2,
         type: 3}
