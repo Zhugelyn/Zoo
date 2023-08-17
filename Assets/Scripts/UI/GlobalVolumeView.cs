@@ -10,6 +10,7 @@ public class GlobalVolumeView : MonoBehaviour
 
     [SerializeField] private Sprite _on;
     [SerializeField] private Sprite _off;
+    [SerializeField] private AudioSource _audioSource;
 
     private void OnEnable()
     {
@@ -24,8 +25,14 @@ public class GlobalVolumeView : MonoBehaviour
     private void OnVolumeMuted(bool mute)
     {
         if (mute)
+        {
             _image.sprite = _off;
+            _audioSource.mute = true;
+        }
         else
+        {
             _image.sprite = _on;
+            _audioSource.mute = false;
+        }
     }
 }
