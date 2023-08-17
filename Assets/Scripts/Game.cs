@@ -106,8 +106,7 @@ public class Game : MonoBehaviour
         _levelToken.SetValue(_level);
         int rows = 1 + ((_level - 1) % _levelsPerScene + 1) * 2;
         int cols = 4;
-        //var typeIndex = ((DB.GetLevel() - 1) / _levelsPerScene) % _levelTypes.Count;
-        var typeIndex = 4;
+        var typeIndex = ((DB.GetLevel() - 1) / _levelsPerScene) % _levelTypes.Count;
         LevelStarted?.Invoke(_level, _levelTypes[typeIndex]);
         _net.BuildLevel(rows, cols);
         Dictionary<string, object> eventParameters = new Dictionary<string, object>
